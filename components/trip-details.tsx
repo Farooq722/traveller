@@ -104,7 +104,7 @@ export default function TripDetailsClient({ trip }: TripDetailsClient) {
                 </div>
               </div>
               <div className="h-72  rounded-lg overflow-hidden shadow">
-                  <Map itineraries={trip.locations} />
+                <Map itineraries={trip.locations} />
               </div>
             </div>
           </TabsContent>
